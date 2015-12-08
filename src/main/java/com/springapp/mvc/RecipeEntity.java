@@ -56,10 +56,11 @@ public class RecipeEntity {
     }
 
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;      //todo co tu siê kurwa odpierdala andrzej
+        if (o == null || getClass() != o.getClass()) return false;
 
         RecipeEntity that = (RecipeEntity) o;
 
@@ -79,6 +80,7 @@ public class RecipeEntity {
         result = 31 * result + (ingredients != null ? ingredients.hashCode() : 0);
         return result;
     }
+
 }
 
 

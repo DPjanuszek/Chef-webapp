@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
  * Created by janco on 26.11.2015.
  */
 @Controller
-public class RecipeController { // todo
+public class RecipeController {
     @Autowired
     private RecipeRepository recipeRepository;
 
